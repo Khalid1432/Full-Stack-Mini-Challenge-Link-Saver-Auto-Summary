@@ -1,4 +1,4 @@
-# 🔖 Link Saver + Auto-Summary (Take-Home Assignment – SDE Internship)
+# 🔖 Link Saver + Auto-Summary (Take-Home Assignment)
 
 A full-stack MERN app that allows users to save URLs with automatically generated summaries (via Jina AI), 
 manage bookmarks with tags, and interact with a polished UI featuring dark mode, drag-and-drop reordering, and filtering.
