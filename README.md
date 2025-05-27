@@ -89,9 +89,8 @@ Improve drag performance with external libraries
 Add pagination or infinite scroll
 
 ⏱️ Time Spent
-Example: 8–10 hours total
-3h frontend structure & auth
+Example: 6–7 hours total
+2h frontend structure & auth
 2h backend routes & MongoDB
-2h UI polish (drag-drop, dark mode)
-1h testing and bug fixes
+1.5h UI polish (drag-drop, dark mode)
 
