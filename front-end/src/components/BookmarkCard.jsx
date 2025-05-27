@@ -10,7 +10,7 @@ const BookmarkCard = ({ data, onDelete }) => {
   };
 
   return (
-    <div className="p-4 border m-2 rounded bg-white dark:bg-gray-800 dark:text-white shadow overflow-x-auto">
+    <div className="p-4 border m-2 rounded bg-white dark:bg-gray-800 dark:text-white shadow overflow-y-auto h-[400px]">
       <div className="flex items-center">
         <img
           src={data.favicon ? data.favicon : '/default-icon.png'}
