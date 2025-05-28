@@ -10,7 +10,13 @@ require('dotenv').config();
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-app.use(cors());
+app.use(cors(
+  {
+    origin: ["https://full-stack-mini-challenge-link-saver-auto-summary-6u604lz44.vercel.app"],
+    methods: ["POST", "GET", "PUT", "DELETE"],
+    credentials: true
+  }
+));
 app.use(express.json());
 app.use(helmet());
 app.use(morgan('dev'));
