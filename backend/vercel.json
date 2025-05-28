@@ -1,9 +1,0 @@
-{
-    "version" : 2,
-    "routes":[
-        {
-            "src":"/userapi/(.*)",
-            "dest":"/index.js"
-        }
-    ]
-}
