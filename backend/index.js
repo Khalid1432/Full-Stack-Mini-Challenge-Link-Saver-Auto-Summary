@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 3000;
 
 app.use(cors(
   {
-    origin: process.env.MONGODB_URL,
+    origin: process.env.CLIENT_URL,
     methods: ["POST", "GET", "PUT", "DELETE"],
     credentials: true,
   }
