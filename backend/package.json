@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "npx nodemon backend/index.js",
-    "build": "npm install && npm install --prefix front-end && npm run build --prefix front-end",
-    "start": "nodemon backend/index.js"
+    "dev": "nodemon index.js",
+    "start": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
