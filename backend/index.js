@@ -39,3 +39,7 @@ app.use('/api/v1', routes);
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
+
+app.get("/", (_, res)=>{
+  res.send(`<h1>Sucessfully run</h1>`);
+})
